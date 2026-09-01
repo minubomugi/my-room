@@ -27,7 +27,7 @@ public class AnimalWorldExample : MonoBehaviour
         for (int i = 0; i < animals.Length; i++)
         {
             animals[i].Introduce();
-
+            //암거나
             if (animals[i] is Person)
             {
                 Person person = (Person)animals[i]; // 명시적 형변환
