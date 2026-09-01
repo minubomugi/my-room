@@ -33,7 +33,7 @@ public class AnimalWorldExample : MonoBehaviour
                 Person person = (Person)animals[i]; // 명시적 형변환
                 person.Seatdown();
             }
-            
+            // 이렇게 하는 거 맞음?
             Person pperson = animals[i] as Person;
             if (pperson != null)
             {
